@@ -146,12 +146,12 @@
   </div>
 
   <div class="bottom-right">
-    <img img src="images/Rioticon.webp" alt="FrIoT">
+    <img src="images/Rioticon.webp" alt="FrIoT">
     <div>Free U3U</div>
   </div>
 
 <script>
-fetch('avatars.json')
+fetch('https://raw.githubusercontent.com/NeilXinpengLi/yupynet.com/main/avatars.json')
   .then(res => res.json())
   .then(data => {
     document.querySelectorAll('.team .member').forEach(memberDiv => {
@@ -159,10 +159,10 @@ fetch('avatars.json')
       const id = img.alt;
       if (data[id]) {
         img.src = data[id].avatar_url;
-        
       }
     });
   });
+
 </script>
 
 </div>

@@ -123,19 +123,19 @@
 
   <section class="team">
     <div class="member">
-      <img src="images/DMA.jpg" alt="YOVIKER">
-      <h3>YOVIKER(北美最好的DMA使用者)</h3>
+      <img src="" alt="564167773371236353">
+      <h3>YOVIKER</h3>
     </div>
     <div class="member">
-      <img src="images/kk.jpg" alt="KK">
+      <img src="" alt="999316935424606238">
       <h3>KK</h3>
     </div>
     <div class="member">
-      <img src="images/ZMJJKK.jpg" alt="NATRO">
-      <h3>NETRO(ZMJJKK康铁粉)</h3>
+      <img src="" alt="960767582988804096">
+      <h3>NATRO</h3>
     </div>
     <div class="member">
-      <img src="images/potato.jpg" alt="Potato">
+      <img src="" alt="287288000298352641">
       <h3>Potato</h3>
     </div>
   </section>
@@ -149,6 +149,23 @@
     <img img src="images/Rioticon.webp" alt="FrIoT">
     <div>Free U3U</div>
   </div>
+
+<script>
+fetch('avatars.json')
+  .then(res => res.json())
+  .then(data => {
+    document.querySelectorAll('.team .member').forEach(memberDiv => {
+      const img = memberDiv.querySelector('img');
+      const id = img.alt;
+      if (data[id]) {
+        img.src = data[id].avatar_url;
+        
+      }
+    });
+  });
+</script>
+
+</div>
 
 </body>
 </html>

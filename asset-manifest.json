@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/yupynet.com/static/css/main.270536fa.css",
+    "main.js": "/yupynet.com/static/js/main.542459b7.js",
+    "static/media/Valorant_natro.mp4": "/yupynet.com/static/media/Valorant_natro.f59e5f9ee82c9c1b90b5.mp4",
+    "static/media/Valorant_caomei.mp4": "/yupynet.com/static/media/Valorant_caomei.7289af3509b7155057c4.mp4",
+    "static/media/Valorant_05-25-2025_0-29-12-178.mp4": "/yupynet.com/static/media/Valorant_05-25-2025_0-29-12-178.7a58c6b6a4465e3c0da0.mp4",
+    "static/media/Valorant_kk.mp4": "/yupynet.com/static/media/Valorant_kk.41474d34dcc6e27f4a3d.mp4",
+    "static/media/natro.webp": "/yupynet.com/static/media/natro.a5b2b55db3e84435925b.webp",
+    "static/media/u3u.webp": "/yupynet.com/static/media/u3u.059e73171bdbb3787c90.webp",
+    "static/media/yoviker.webp": "/yupynet.com/static/media/yoviker.465b8c398335f4cd7cfa.webp",
+    "static/media/potato.webp": "/yupynet.com/static/media/potato.f5b7a0c1207646b41d4d.webp",
+    "static/media/kk.webp": "/yupynet.com/static/media/kk.ee362fb99c46133ae0bc.webp",
+    "static/media/_Gabarito-Bold.woff2": "/yupynet.com/static/media/672a4022c04412b253b0ae96_Gabarito-Bold.c632d410d3266c760cae.woff2",
+    "static/media/_Gabarito-Regular.woff2": "/yupynet.com/static/media/672a4022c04412b253b0aeb9_Gabarito-Regular.a6ae78cd4e0b346be373.woff2",
+    "static/media/Rioticon.webp": "/yupynet.com/static/media/Rioticon.f024932d83168ebcabb8.webp",
+    "index.html": "/yupynet.com/index.html",
+    "main.270536fa.css.map": "/yupynet.com/static/css/main.270536fa.css.map",
+    "main.542459b7.js.map": "/yupynet.com/static/js/main.542459b7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.270536fa.css",
+    "static/js/main.542459b7.js"
+  ]
+}
